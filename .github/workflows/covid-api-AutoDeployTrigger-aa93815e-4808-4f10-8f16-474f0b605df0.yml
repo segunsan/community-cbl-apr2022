@@ -6,10 +6,7 @@ on:
   push:
     branches: 
       [ start ]
-    paths:
-    - '**'
-    - '.github/workflows/covid-api-AutoDeployTrigger-aa93815e-4808-4f10-8f16-474f0b605df0.yml'
-
+ 
   # Allow manual trigger 
   workflow_dispatch:
       
